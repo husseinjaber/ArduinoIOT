@@ -1,0 +1,533 @@
+{
+    "data1": {
+        "Date": "18/12/2020",
+        "Time": "14:45:52",
+        "ID": "100",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data2": {
+        "Date": "18/12/2020",
+        "Time": "14:46:03",
+        "ID": "101",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data3": {
+        "Date": "18/12/2020",
+        "Time": "14:46:13",
+        "ID": "102",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data4": {
+        "Date": "18/12/2020",
+        "Time": "14:46:23",
+        "ID": "103",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data5": {
+        "Date": "18/12/2020",
+        "Time": "14:46:33",
+        "ID": "104",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data6": {
+        "Date": "18/12/2020",
+        "Time": "14:46:43",
+        "ID": "105",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data7": {
+        "Date": "18/12/2020",
+        "Time": "14:46:53",
+        "ID": "106",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data8": {
+        "Date": "18/12/2020",
+        "Time": "14:48:06",
+        "ID": "106",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data9": {
+        "Date": "18/12/2020",
+        "Time": "14:48:16",
+        "ID": "106",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data10": {
+        "Date": "18/12/2020",
+        "Time": "14:48:26",
+        "ID": "1",
+        "TotalAmplitude": "784",
+        "AverageAmplitude": "7",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data11": {
+        "Date": "18/12/2020",
+        "Time": "14:48:36",
+        "ID": "2",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data12": {
+        "Date": "18/12/2020",
+        "Time": "14:48:47",
+        "ID": "3",
+        "TotalAmplitude": "2249",
+        "AverageAmplitude": "22",
+        "MaximumAmplitude": "231",
+        "NoofCars": "9"
+    },
+    "data13": {
+        "Date": "18/12/2020",
+        "Time": "14:48:57",
+        "ID": "4",
+        "TotalAmplitude": "968",
+        "AverageAmplitude": "9",
+        "MaximumAmplitude": "87",
+        "NoofCars": "2"
+    },
+    "data14": {
+        "Date": "18/12/2020",
+        "Time": "14:49:07",
+        "ID": "6",
+        "TotalAmplitude": "988",
+        "AverageAmplitude": "9",
+        "MaximumAmplitude": "124",
+        "NoofCars": "1"
+    },
+    "data15": {
+        "Date": "18/12/2020",
+        "Time": "14:49:17",
+        "ID": "7",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data16": {
+        "Date": "18/12/2020",
+        "Time": "14:49:27",
+        "ID": "8",
+        "TotalAmplitude": "2062",
+        "AverageAmplitude": "20",
+        "MaximumAmplitude": "226",
+        "NoofCars": "11"
+    },
+    "data17": {
+        "Date": "18/12/2020",
+        "Time": "14:49:37",
+        "ID": "9",
+        "TotalAmplitude": "866",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "70",
+        "NoofCars": "1"
+    },
+    "data18": {
+        "Date": "18/12/2020",
+        "Time": "14:49:47",
+        "ID": "10",
+        "TotalAmplitude": "1560",
+        "AverageAmplitude": "15",
+        "MaximumAmplitude": "177",
+        "NoofCars": "5"
+    },
+    "data19": {
+        "Date": "18/12/2020",
+        "Time": "14:49:57",
+        "ID": "11",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data20": {
+        "Date": "18/12/2020",
+        "Time": "14:50:08",
+        "ID": "12",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data21": {
+        "Date": "18/12/2020",
+        "Time": "14:50:18",
+        "ID": "13",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data22": {
+        "Date": "18/12/2020",
+        "Time": "14:50:28",
+        "ID": "14",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data23": {
+        "Date": "18/12/2020",
+        "Time": "14:50:38",
+        "ID": "15",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data24": {
+        "Date": "18/12/2020",
+        "Time": "14:50:48",
+        "ID": "16",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data25": {
+        "Date": "18/12/2020",
+        "Time": "14:50:58",
+        "ID": "17",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data26": {
+        "Date": "18/12/2020",
+        "Time": "14:51:08",
+        "ID": "18",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data27": {
+        "Date": "18/12/2020",
+        "Time": "14:51:18",
+        "ID": "19",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data28": {
+        "Date": "18/12/2020",
+        "Time": "14:51:29",
+        "ID": "20",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data29": {
+        "Date": "18/12/2020",
+        "Time": "14:51:39",
+        "ID": "21",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data30": {
+        "Date": "18/12/2020",
+        "Time": "14:51:49",
+        "ID": "22",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data31": {
+        "Date": "18/12/2020",
+        "Time": "14:51:59",
+        "ID": "23",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data32": {
+        "Date": "18/12/2020",
+        "Time": "14:52:09",
+        "ID": "24",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data33": {
+        "Date": "18/12/2020",
+        "Time": "14:52:19",
+        "ID": "25",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data34": {
+        "Date": "18/12/2020",
+        "Time": "14:52:29",
+        "ID": "26",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data35": {
+        "Date": "18/12/2020",
+        "Time": "14:52:39",
+        "ID": "27",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data36": {
+        "Date": "18/12/2020",
+        "Time": "14:52:50",
+        "ID": "28",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data37": {
+        "Date": "18/12/2020",
+        "Time": "14:53:00",
+        "ID": "29",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data38": {
+        "Date": "18/12/2020",
+        "Time": "14:53:10",
+        "ID": "30",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data39": {
+        "Date": "18/12/2020",
+        "Time": "14:53:20",
+        "ID": "31",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data40": {
+        "Date": "18/12/2020",
+        "Time": "14:53:30",
+        "ID": "32",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data41": {
+        "Date": "18/12/2020",
+        "Time": "14:53:40",
+        "ID": "33",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data42": {
+        "Date": "18/12/2020",
+        "Time": "14:53:50",
+        "ID": "34",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data43": {
+        "Date": "18/12/2020",
+        "Time": "14:54:00",
+        "ID": "35",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data44": {
+        "Date": "18/12/2020",
+        "Time": "14:54:11",
+        "ID": "36",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data45": {
+        "Date": "18/12/2020",
+        "Time": "14:54:21",
+        "ID": "37",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data46": {
+        "Date": "18/12/2020",
+        "Time": "14:54:31",
+        "ID": "38",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data47": {
+        "Date": "18/12/2020",
+        "Time": "14:54:41",
+        "ID": "39",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data48": {
+        "Date": "18/12/2020",
+        "Time": "14:54:51",
+        "ID": "40",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data49": {
+        "Date": "18/12/2020",
+        "Time": "14:55:01",
+        "ID": "41",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data50": {
+        "Date": "18/12/2020",
+        "Time": "14:55:11",
+        "ID": "42",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data51": {
+        "Date": "18/12/2020",
+        "Time": "14:55:21",
+        "ID": "43",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data52": {
+        "Date": "18/12/2020",
+        "Time": "14:55:32",
+        "ID": "44",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data53": {
+        "Date": "18/12/2020",
+        "Time": "14:55:42",
+        "ID": "45",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data54": {
+        "Date": "18/12/2020",
+        "Time": "14:55:52",
+        "ID": "46",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data55": {
+        "Date": "18/12/2020",
+        "Time": "14:56:02",
+        "ID": "47",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data56": {
+        "Date": "18/12/2020",
+        "Time": "14:56:12",
+        "ID": "48",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data57": {
+        "Date": "18/12/2020",
+        "Time": "14:56:22",
+        "ID": "49",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data58": {
+        "Date": "18/12/2020",
+        "Time": "14:56:32",
+        "ID": "50",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    },
+    "data59": {
+        "Date": "18/12/2020",
+        "Time": "14:56:42",
+        "ID": "51",
+        "TotalAmplitude": "792",
+        "AverageAmplitude": "8",
+        "MaximumAmplitude": "8",
+        "NoofCars": "0"
+    }
+}

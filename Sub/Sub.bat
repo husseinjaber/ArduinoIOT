@@ -1,0 +1,1 @@
+mosquitto_sub -h 192.168.43.117 -p 1883 -t TEXT  >  SubAnswersLinesNotFinal.txt

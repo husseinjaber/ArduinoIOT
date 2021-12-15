@@ -1,0 +1,208 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <table id="dataTable" class="display" style="width:100%">
+  <!-- This is a comment 
+        <thead>
+            <tr style="text-align: center;">
+                <th>Date</th>
+				<th>Time</th>
+                <th>ID</th>
+                <th>Total Amplitude</th>
+                <th>Average Amplitude</th>
+                <th>Maximum Amplitude</th>
+                <th>No of Cars</th>
+            </tr>
+        </thead>  
+	-->
+        <tbody id="data">
+
+        <tbody>
+  </table>
+<div class="row">
+  <div class="col-md-5">
+    <canvas id="TotalAmpl" width="100%"></canvas>
+  </div>
+  <div class="col-md-5">
+    <canvas id="AverageAmpl" width="100%"></canvas>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-5">
+    <canvas id="MaxAmpl" width="100%"></canvas>
+  </div>
+  <div class="col-md-5">
+    <canvas id="NoOfCars" width="100%"></canvas>
+  </div>
+</div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+
+ setInterval(function(){
+  // window.location.reload(1);
+$('#data').html('');
+loadData();
+}, 5000);
+
+    loadData();    //$('#dataTable').DataTable();
+
+  })
+
+function loadData(){
+
+//$('#dataTable').empty();
+$.get('files/SubAnswersLines.txt',function(data){
+      //console.log(JSON.parse(data));
+
+      var cells = data.split('\n').map(function (el) { return el.split(/\s+/); });
+      //var headings = cells.shift();
+	var headings = ["Date","Time","ID", "TotalAmplitude", "AverageAmplitude", "MaximumAmplitude", "NoofCars"]
+      //console.log(headings)
+      var out = cells.map(function (el) {
+        var obj = {};
+        for (var i = 0, l = el.length; i < l; i++) {
+          obj[headings[i]] = isNaN(Number(el[i])) ? el[i] : +el[i];
+        }
+        return obj;
+      });
+      cleanedData = out;
+      console.log(cleanedData);
+      let serial = [];
+      let TotalAmplitude = [];
+	  let AverageAmplitude = [];
+	  let MaxAmplitude = [];
+	  let NoOfCars = [];
+    //  let id = [];
+	  $("#data").empty();
+      for(var i = 0; i < cleanedData.length;i++){
+        console.log(cleanedData[i].ID);
+       // $('#data').append("<tr style='text-align: center;' id=id"+i+"><td>"+cleanedData[i].Date+"</td><td>"+cleanedData[i].Time+"</td><td>"+cleanedData[i].ID+"</td><td>"+cleanedData[i].TotalAmplitude+"</td><td>"+cleanedData[i].AverageAmplitude+"</td><td>"+cleanedData[i].MaximumAmplitude+"</td><td>"+cleanedData[i].NoofCars+"</td></tr>");
+        serial.push(cleanedData[i].ID);
+        TotalAmplitude.push(cleanedData[i].TotalAmplitude);
+		AverageAmplitude.push(cleanedData[i].AverageAmplitude);
+		MaxAmplitude.push(cleanedData[i].MaximumAmplitude);
+		NoOfCars.push(cleanedData[i].NoofCars);
+
+      }
+      //$('#dataTable').dataTable();
+
+      createTotalAmplChart(serial,TotalAmplitude,'line');
+	  createAverageAmplChart(serial,AverageAmplitude,'line');
+	  createMaxAmplChart(serial,MaxAmplitude,'line');
+	  createNoOfCarsChart(serial,NoOfCars,'line');
+
+    });
+}
+
+  function createTotalAmplChart(xAxis,yAxis,type){
+
+                try {
+                  let chartdata = {
+                    labels: [...xAxis],
+                    datasets: [{
+                      label: 'Total Amplitude',
+                      backgroundColor: 'rgba(0, 119, 204, 0.3)',
+                      borderColor: 'rgba(200, 200, 200, 0.75)',
+                      hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+                      hoverBorderColor: 'rgba(200, 200, 200, 1)',
+                      data: [...yAxis]
+                    }]
+                  };
+
+                  let ctx = $("#TotalAmpl");
+                  let barGraph = new Chart(ctx, {
+                    type: type,
+                    data: chartdata
+                  });
+              } catch (error) {
+                console.log('Error parsing JSON data', error)
+              }
+  }
+    function createAverageAmplChart(xAxis,yAxis,type){
+
+                try {
+                  let chartdata = {
+                    labels: [...xAxis],
+                    datasets: [{
+                      label: 'Average Amplitude',
+                      backgroundColor: 'rgba(0, 119, 204, 0.3)',
+                      borderColor: 'rgba(200, 200, 200, 0.75)',
+                      hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+                      hoverBorderColor: 'rgba(200, 200, 200, 1)',
+                      data: [...yAxis]
+                    }]
+                  };
+
+                  let ctx = $("#AverageAmpl");
+                  let barGraph = new Chart(ctx, {
+                    type: type,
+                    data: chartdata
+                  });
+              } catch (error) {
+                console.log('Error parsing JSON data', error)
+              }
+  }
+    function createMaxAmplChart(xAxis,yAxis,type){
+
+                try {
+                  let chartdata = {
+                    labels: [...xAxis],
+                    datasets: [{
+                      label: 'Maximum Amplitude',
+                      backgroundColor: 'rgba(0, 119, 204, 0.3)',
+                      borderColor: 'rgba(200, 200, 200, 0.75)',
+                      hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+                      hoverBorderColor: 'rgba(200, 200, 200, 1)',
+                      data: [...yAxis]
+                    }]
+                  };
+
+                  let ctx = $("#MaxAmpl");
+                  let barGraph = new Chart(ctx, {
+                    type: type,
+                    data: chartdata
+                  });
+              } catch (error) {
+                console.log('Error parsing JSON data', error)
+              }
+  }
+    function createNoOfCarsChart(xAxis,yAxis,type){
+
+                try {
+                  let chartdata = {
+                    labels: [...xAxis],
+                    datasets: [{
+                      label: 'Number Of Cars',
+                      backgroundColor: 'rgba(0, 119, 204, 0.3)',
+                      borderColor: 'rgba(200, 200, 200, 0.75)',
+                      hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+                      hoverBorderColor: 'rgba(200, 200, 200, 1)',
+                      data: [...yAxis]
+                    }]
+                  };
+
+                  let ctx = $("#NoOfCars");
+                  let barGraph = new Chart(ctx, {
+                    type: type,
+                    data: chartdata
+                  });
+              } catch (error) {
+                console.log('Error parsing JSON data', error)
+              }
+  }
+  
+  
+  </script>
+</body>
+</html>
